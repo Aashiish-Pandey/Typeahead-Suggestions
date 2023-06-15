@@ -1,0 +1,29 @@
+#app {
+    width :400px;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+   
+   
+}
+input:focus {
+    border: 2px solid blue;
+}
+
+.suggestions-wrapper{
+    display: none;
+}
+
+.suggestions-visible {
+    display: block;
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid silver;
+}
